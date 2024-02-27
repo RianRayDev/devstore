@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100vw;
+    --bs-gutter-x: 0;
+}
+
+.header {
+    background-color: #2f9e44;
+}
