@@ -58,3 +58,24 @@ body {
     stroke-dasharray: 20 300;
     stroke-dashoffset: -32.42;
 }
+
+/* continuation */
+.hero-section {
+    margin-top: 21%; 
+    margin-left: 8%;
+    margin-top: 300px;
+}
+
+/* Media Queries */
+
+/* standard Media Query */
+#titleTopHero {
+    margin-inline: 100px;
+}
+
+/* Modified Media Query */
+@media (max-width: 576px) {
+    #titleTopHero {
+        margin-inline: 20px;
+    }
+  }
