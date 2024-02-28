@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const menuButton = document.querySelector('.navbar-toggler');
     const cartIcon = document.querySelector('.cart');
-    const focusRing = document.querySelector('.focus-ring');
+    const divFooter = document.getElementById('div-footer');
     const divHeader = document.getElementById('div-header');
 
     cartIcon.style.transition = "opacity 1s ease";
@@ -24,8 +24,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const isSm = window.innerWidth <= 576; // Define the width at which the switch happens (adjust as needed)
         if (isSm) {
             divHeader.classList.add('container');
+            // divFooter.classList.add('container');
         } else {
             divHeader.classList.remove('container');
+            // divFooter.classList.remove('container');
         }
     }
     // Initial call to toggleIcons
