@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     const menuButton = document.querySelector('.navbar-toggler');
     const cartIcon = document.querySelector('.cart');
-    const divFooter = document.getElementById('div-footer');
+    const function name(params) {
+        divFooter
+    } = document.getElementById('div-footer');
     const divHeader = document.getElementById('div-header');
 
     cartIcon.style.transition = "opacity 1s ease";
