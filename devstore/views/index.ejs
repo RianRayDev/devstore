@@ -125,7 +125,16 @@
   </div>
 </Section>
 
-<section class="p-4 bg-dark-subtle">
+<!-- ================================  MAIN  ======================================= -->
+
+<div class="position-relative w-100 container-fluid" style="overflow: hidden;">
+  <img src="/img/gears-table-min.jpg" class="img-fluid position-absolute" style="object-fit: cover; width: 100%; height: 200%; z-index: -1; bottom: -50px;filter: grayscale(100%) brightness(30%);" alt="Extended Background">
+
+
+
+
+
+<section class="p-4">
   <div class="container mt-4 mb-4">
 
   <div class="d-flex justify-content-center">
@@ -135,10 +144,10 @@
           <h4 class="text-light-emphasis">other texts goes here</h4>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12 rounded-4 overflow-hidden" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+      <div class="glass-bg bg-dark bg-opacity-50 col-md-6 col-sm-12 rounded-4 overflow-hidden">
         <!-- temporary placement -->
-        <div class= "bg-dark-subtle justify-content-center d-flex align-items-center" style="height: 400px">
-          <h1 class="text-light-emphasis">content here</h1>
+        <div class= "justify-content-center d-flex align-items-center" style="height: 400px">
+          <h1 class="text-white">content here</h1>
         </div>
         <!-- End of temporary placement -->
       </div>
@@ -190,7 +199,7 @@
 </section>
 
 
-<section class="p-4 bg-dark-subtle rounded-bottom-4 pb-5">
+<!-- <section class="p-4 bg-dark-subtle rounded-bottom-4 pb-5">
 <div class="container d-flex justify-content-center">
   <div class="row container justify-content-between d-md-grid column-gap-md-4 gap-3" style="grid-template-columns: 2fr 2fr 2fr;">
 
@@ -209,9 +218,31 @@
 </div>
 
 
+</section> -->
+
+  
+  
+
+
+<section class="d-md-none d-lg-none d-xl-none d-xxl-none d-sm-flex p-4 bg-dark-subtle rounded-bottom-4 pb-5" style="overflow-x: hidden;">
+  <div class="container">
+    <div class="container d-flex justify-content-center gap-3" style="grid-template-columns: 1fr;">
+
+      <div class="col-sm-12 bg-dark-subtle justify-content-center d-flex align-items-center rounded rounded-4" style="height: 300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" id="cardOne">
+        <h1 class="text-light-emphasis">content here</h1>
+      </div>
+    
+      <div class="col-sm-12 bg-dark-subtle justify-content-center d-flex align-items-center rounded rounded-4" style="height: 300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" id="cardTwo">
+        <h1 class="text-light-emphasis">content here</h1>
+      </div>
+
+      <div class="col-sm-12 bg-dark-subtle justify-content-center d-flex align-items-center rounded rounded-4" style="height: 300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" id="cardThree">
+        <h1 class="text-light-emphasis">content here</h1>
+      </div>
+
+    </div>
+  </div>
 </section>
-
-
 
 
 
@@ -222,15 +253,14 @@
 </div> -->
 
 
-
-<div class="position-relative container-fluid">
-  <div class="bg-dark-subtle position-absolute container-fluid" style="height: 50px;bottom: -20px;border-radius: 0px 0px 20px 20px;">
-
-  </div>
 </div>
+<!-- ================================  END OF MAIN  ======================================= -->
 
 
-<footer class=" bg-dark text-white container-fluid" id="div-footer" style="height: 400px;margin-top: -30px;" data-bs-toggle="light">
+
+
+
+<footer class=" bg-dark text-white container-fluid" id="div-footer" style="height: 400px;margin-top: -30px;z-index: -2;border-radius: 20px 20px 0px 0px;" data-bs-toggle="light">
   <div class=" bg-dark container">
     <div class="row mt-3">
       <div class="col-6 col-md-2 mb-3 mt-5">
@@ -286,9 +316,11 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>    
+<script>
 
+</script>
 </body>
-<script src="js/base.js"></script>
+<script src="/js/base.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
