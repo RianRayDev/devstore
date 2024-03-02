@@ -88,3 +88,10 @@ body {
     -webkit-backdrop-filter: blur(10px);
     border: 1.8px solid #e6e6e63d;
 }
+
+.text-hero {
+    font-weight: 900 !important;
+    background: radial-gradient(circle, #a8b2bb 51%, #acacac54 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
